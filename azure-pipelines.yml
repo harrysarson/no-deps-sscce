@@ -23,4 +23,4 @@ steps:
 
 - script: |
     npm install -g elm && elm make src/Main.elm --output /dev/null
-  displayName: 'npm install immediately followed by test'
+  displayName: 'npm install immediately followed invoking elm'
